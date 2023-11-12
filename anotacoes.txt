@@ -26,7 +26,7 @@
 -> cat /proc/cpuinfo | grep vmx = Verificar se o processador suporta virtualização (INTEL)
 -> cat /proc/cpuinfo | grep svm = Verificar se o processador suporta virtualização (AMD)
 
-# SUBSCRIPTION DA REDHAT PARA PODER USAR O KVM #
+# SUBSCRIPTION DA REDHAT PARA PODER USAR O KVM OU OUTROS PRODUTOS #
 
 -> subscription-manager register = Registrar o so na redhat.
 -> subscription-manager attach = Atualizar a subscrição.
