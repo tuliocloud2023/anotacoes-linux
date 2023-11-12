@@ -5,7 +5,7 @@
 -> lsblk = Lista os disco da máquina.
 
 ###### Trocar idioma do linux ######
--> localectl = Comando responsavel dos idiomas do linux.
+-> localectl = Comando responsavel dos idiomas do linux, esse comando verificar em qual linguagem está o sistema.
 -> localectl --help = Verificar as entrandas que posso usar utilizando esse comando.
 -> localectl list-locales | grep -i pt = Listar os idiomas e com o grep filtrar o idioma que começa com pt, já o -i server para ignorar o maiúsculo e minúsculo.
 -> localectl set-locale pt_BR.UTF8 = Alterar para o idioma pt_br com a codificação UTF8. É necessário deslogar e logar para validar a troca de idioma, lembrando que precisa está com o usuário root.
