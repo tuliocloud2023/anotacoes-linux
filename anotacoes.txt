@@ -4,7 +4,8 @@
 -> mkdir nome_pasta = Cria pasta vazia.
 -> lsblk = Lista os disco da máquina.
 -> arch = Verificar a arquitetura do so.
--> ssh -lroot 192.168.1.1110 = Acessar a máquina com o usuário root
+-> ssh -lroot 192.168.1.110 = Acessar a máquina com o usuário root
+-> ssh -lroot -X 192.168.1.110 = Acessar a máquina com o usuário root e o -X serve para habilitar o modo de interface das aplicações.
 
 
 ###### Trocar idioma do linux ######
