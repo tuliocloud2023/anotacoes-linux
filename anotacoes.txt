@@ -41,5 +41,11 @@
 -> systemctl is-enabled libvirtd = Verificar se aplicação libvirtd está habilitada para iniciar automaticamente ao realizar o restart no SO.
 -> systemctl enable libvirtd = Habilitar para o libvirtd iniciar junto com o SO.
 
+# INSTALANDO UM LINUX NO KVM #
+
+-> ssh -lroot -X 192.168.1.110 = Acessar a máquina com o usuário root e o -X serve para habilitar o modo de interface das aplicações.
+-> virt-manager = Suvir o gerencionador de vm do kvm.
+
+
 
 
