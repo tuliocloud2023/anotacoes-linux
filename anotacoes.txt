@@ -8,6 +8,14 @@
 -> ssh -lroot -X 192.168.1.110 = Acessar a máquina com o usuário root e o -X serve para habilitar o modo de interface das aplicações.
 -> hostname -b host1 = Altera o hostname da máquina host1
 -> hostname = Mostra o host da máquina
+-> env = Mostra as variáveis de ambiente da shell
+-> echo $HOME = O echo server para mostrar algo e nesse caso está vendo a variável HOME.
+-> $HOME = Diretório raiz do usuário.
+-> $PATH = A variável PATH define as lista de diretórios que são buscado o nome do arquivo quando o usuário executa um comando.
+-> which ls = Vê exatamente o comando que a shell está executando no comando ls.
+-> su = muda para o usuário root.
+-> adduser user1 = Cria um usuário chamado user1.
+-> passwd user1 = Cria uma senha para o usuário user1.
 
 
 ###### Trocar idioma do linux ######
@@ -96,7 +104,33 @@
 -> ls -l = Lista o diretório com as informações de permissões e tamanho dos arquivos
 -> ls -a = Lista todos os itens do diretório
 
-
+# AMBIENTE DO SHELL #
+-> shell = O Shell é o interpretador de comandos em um sistema operacional como Unix ou GNU/Linux, é um programa que executa outros programas. ELe fornece ao usuário de computador uma interface para o sistema Unix/GNU Linux de forma que o usuário possa executar diferentes comandos ou utilitários/ferramentas com alguns dados de entrada.
+# VARIÁVEIS DO AMBIENTE DO SHELL #
+- Quando fazemos login em uma shell, um ambiente com variáveis é criado para aquela sessão.
+- O ambiente consiste de variáveis que configuram o ambiente de acordo com o usuário fazendo o login.
+- Use o comando "env" para ver variáveis do seu sistema.
+- Uma visão geral é suficiente para o exame RHCSA.
+# LOGIN MODE #
+- Quando fazemos o login usando username e password.
+- Configuração inicial da shell após login do usuário é recomendado se possível para investigar problemas.
+- Usa o arquivo ~/.bash_profile.
+- Use o comando "su - user1" para login mode.
+# NON LOGIN MODE #
+- Depois do login, quando abrimos um novo terminal.
+- Usa o arquivo ~/.bashrc.
+- Use o comando "su user1"
+-> env = Mostra as variáveis de ambiente da shell
+-> echo $HOME = O echo server para mostrar algo e nesse caso está vendo a variável HOME.
+-> $HOME = Diretório raiz do usuário.
+-> $PATH = A variável PATH define as lista de diretórios que são buscado o nome do arquivo quando o usuário executa um comando.
+-> which ls = Vê exatamente o comando que a shell está executando no comando ls.
+-> su = muda para o usuário root.
+-> adduser user1 = Cria um usuário chamado user1.
+-> passwd user1 = Cria uma senha para o usuário user1.
+-> su - user1 = ele vai logar no modo "LOGIN MODE" ele vai ser utilizando também quando vc loga pela primeira vez e vai utilizar o arquivo ~/.bash_profile.
+-> su user1 = ele vai logar no modo "NON LOGIN MODE" ele vai utilizar o arquivo ~/.bashrc.
+- Entramos no arquivos ~/.bash_profile e adicionamos uma variável com o nome e valor: COR=VERMELHO e deslogamos e logamos de novo no usuário user1 com o "LOGIN MODE" su - user1, ao digitar $COR ele mostrou o valor de: VERMELHO.
 
 
 
