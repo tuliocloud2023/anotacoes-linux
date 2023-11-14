@@ -6,6 +6,8 @@
 -> arch = Verificar a arquitetura do so.
 -> ssh -lroot 192.168.1.110 = Acessar a máquina com o usuário root
 -> ssh -lroot -X 192.168.1.110 = Acessar a máquina com o usuário root e o -X serve para habilitar o modo de interface das aplicações.
+-> hostname -b host1 = Altera o hostname da máquina host1
+-> hostname = Mostra o host da máquina
 
 
 ###### Trocar idioma do linux ######
@@ -52,8 +54,9 @@
 -> virsh -h | grep snapshot = Comandos do virsh com o grep snapshot
 -> virsh snapshot-create dev1 = Cria um snapshot da vm informada nesse caso é "dev1"
 -> virsh snapshot-list dev1 = Lista os snapshots da vm informada nesse caso é "dev1"
--> virsh snapshot-create-as dev1 inicio = Cria um snapshot da vm informada nesse caso é "dev1" porém você define um nome do snapshot
--> virsh snapshot-revert dev1 nome_ou_id_snapshot = Reverte o snapshot que você deseja.
+-> virsh snapshot-create-as dev1 inicio = Cria um snapshot da vm informada nesse caso é "dev1" porém você define um nome do snapshot nesse caso é "inicio"
+-> virsh snapshot-revert dev1 "nome_ou_id_snapshot" = Reverte o snapshot que você deseja
+-> virsh list --all = Lista todas as vms com qualquer estado(inicio,desligada e parada)
 
 
 
