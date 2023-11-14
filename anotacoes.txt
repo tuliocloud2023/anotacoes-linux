@@ -46,6 +46,9 @@
 -> ssh -lroot -X 192.168.1.110 = Acessar a máquina com o usuário root e o -X serve para habilitar o modo de interface das aplicações.
 -> virt-manager = Subir o gerencionador de vm do kvm.
 
+# COMANDOS VIRSH - KVM #
+-> virsh list = Listar vms do kvm
+
 
 
 
