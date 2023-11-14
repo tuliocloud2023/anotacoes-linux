@@ -62,6 +62,33 @@
 -> GERENCIADOR DO KVM - CLICAR NA MAQUINA - CLICAR NA LAMPADA - CLICAR EM ADICIONAR HARDWARE - ADICIONAR OS DISCO
 
 
+# FILE SYSTEM HIERARCHY (FSH)
+-> FSH: Hierarquia do sistema de arquivos
+-> Define como o sistema de arquivos pe organizado
+-> Descrito em "man 7 hier = saber mais sobre.
+-> Tabela a seguir descrive o RHEL8
+
+/ = Diretório raiz. Onde a árvore do arquivo de sistema começa.
+/bin = Diretório essencial durante boot. Onde se encontra programas execuitáveis para reparar um sistema em modo mínimo.
+/boot = Contém todos os arquivos e diretórios necessários para inicialização do Kernel linux.
+/dev = Arquivos de dispositivos para acessar dispositivos físicos.
+/etc = Contém arquivos de configuração usados por programas e serviços. Essencial durante o boot. (inicialização)
+/home = Usado para diretórios padrão (home directory) para usuários locais.
+/lib, /lib64 = Bibliotecas compartilhadas usadas pelos diretórios /boot, /bin e /sbin.
+/media, /mnt = Diretórios usados para montar dispositivos na arvore do arquivos de sistemas.
+/opt = Usado para pacotes opcionais instalados em seu servidor.
+/proc = Diretório usado pelo sistema proc. Este é um arquivo de sistema usado para dar acesso as informações do kernel.
+/root = Diretório padrão do usuário raiz.
+/run = Contém informações especifica de usuários e processos desde do ultimo boot.
+/sbin = Como /bin, mas para comandos de administração de sistema que não são usados por usuários regulares.
+/srv = Diretório usuado para dados de serviços tais como NFS, FTP e HTTP.
+/sys = Usado para interagir com dispositivos de hardware que são gerenciado pelo linux kernel.
+/tmp = Arquivos temporários que podem ser deletados na próxima reinicialização.
+/usr = Diretório que contem subdiretórios com arquivos, blibliotecas e documentação soobre programas. Não é requerido durante o boot.
+/var = Diretório que muda de tamanho dinamicamente, tal como arquivos de log, email e arquivos de spool (impressora).
+
+
+
 
 
 
