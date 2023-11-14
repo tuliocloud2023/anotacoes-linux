@@ -87,6 +87,16 @@
 /usr = Diretório que contem subdiretórios com arquivos, blibliotecas e documentação soobre programas. Não é requerido durante o boot.
 /var = Diretório que muda de tamanho dinamicamente, tal como arquivos de log, email e arquivos de spool (impressora).
 
+# COMANDOS BASICOS DE NAVEGAÇÃO #
+-> pwd = Mostra o local da pasta aonde vc está
+-> touch file1 = Cria um arquivos vazio chamado file1
+-> cd .. = Você volta para o diretorio pai, caso esteja no diretorio /home/tulio ao executar o cd .. ele vai voltar para /home
+-> cd ~ = Você volta para a pasta raiz do usuário
+-> ls = Lista a pasta
+-> ls -l = Lista o diretório com as informações de permissões e tamanho dos arquivos
+-> ls -a = Lista todos os itens do diretório
+
+
 
 
 
