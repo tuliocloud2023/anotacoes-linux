@@ -58,6 +58,8 @@
 -> virsh snapshot-revert dev1 "nome_ou_id_snapshot" = Reverte o snapshot que você deseja
 -> virsh list --all = Lista todas as vms com qualquer estado(inicio,desligada e parada)
 
+# ADICIONAR DISCO NO KVM #
+-> GERENCIADOR DO KVM - CLICAR NA MAQUINA - CLICAR NA LAMPADA - CLICAR EM ADICIONAR HARDWARE - ADICIONAR OS DISCO
 
 
 
