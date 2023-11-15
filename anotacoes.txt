@@ -57,6 +57,7 @@
 -> virt-manager = Subir o gerencionador de vm do kvm.
 
 # COMANDOS VIRSH - KVM #
+
 -> virsh list = Listar vms do kvm
 -> virsh -h = Comandos do virsh
 -> virsh -h | grep snapshot = Comandos do virsh com o grep snapshot
@@ -131,6 +132,15 @@
 -> su - user1 = ele vai logar no modo "LOGIN MODE" ele vai ser utilizando também quando vc loga pela primeira vez e vai utilizar o arquivo ~/.bash_profile porém junto com o ~/.bashrc.
 -> su user1 = ele vai logar no modo "NON LOGIN MODE" ele vai utilizar o arquivo ~/.bashrc.
 - Entramos no arquivos ~/.bash_profile e adicionamos uma variável com o nome e valor: COR=VERMELHO e deslogamos e logamos de novo no usuário user1 com o "LOGIN MODE" su - user1, ao digitar $COR ele mostrou o valor de: VERMELHO.
+
+# CRIAR E REMOVER DIRETÓRIOS #
+
+-> mkdir exemplo = Criar diretório.
+-> rmdir exemplo = Apagar diretório vazio, caso tenha arquivos/diretórios dentro dele o comando não irá funcionar.
+-> rm -f exemplo = Apagar diretório completo sem nenhuma validação.
+-> rm -ri exemplo = Apagar diretório porém perguntando se tem certeza que quer apagar os arquivos/diretórios dentro dele.
+-> mkdir -p exemplo/exemplo2 = Criar diretório e subdiretório com um comando só.
+
 
 
 
