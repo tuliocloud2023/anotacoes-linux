@@ -128,7 +128,7 @@
 -> su = muda para o usuário root.
 -> adduser user1 = Cria um usuário chamado user1.
 -> passwd user1 = Cria uma senha para o usuário user1.
--> su - user1 = ele vai logar no modo "LOGIN MODE" ele vai ser utilizando também quando vc loga pela primeira vez e vai utilizar o arquivo ~/.bash_profile.
+-> su - user1 = ele vai logar no modo "LOGIN MODE" ele vai ser utilizando também quando vc loga pela primeira vez e vai utilizar o arquivo ~/.bash_profile porém junto com o ~/.bashrc.
 -> su user1 = ele vai logar no modo "NON LOGIN MODE" ele vai utilizar o arquivo ~/.bashrc.
 - Entramos no arquivos ~/.bash_profile e adicionamos uma variável com o nome e valor: COR=VERMELHO e deslogamos e logamos de novo no usuário user1 com o "LOGIN MODE" su - user1, ao digitar $COR ele mostrou o valor de: VERMELHO.
 
