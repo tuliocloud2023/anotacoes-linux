@@ -141,6 +141,21 @@
 -> rm -ri exemplo = Apagar diretório porém perguntando se tem certeza que quer apagar os arquivos/diretórios dentro dele.
 -> mkdir -p exemplo/exemplo2 = Criar diretório e subdiretório com um comando só.
 
+# GERENCIAMENTO DE ARQUIVOS DE TEXTO #
+- less - Leitor de arquivos de texto.
+- head - Ler as 10 primeiras linhas por padrão.
+- tail - Ler as 10 útilmas linhas por padrão.
+- cut - Remove partes das linhas de arquivos.
+
+-> less /var/log/secure = Leitor de arquivos de texto.
+# Comandos dentro do less #
+Barra/PgDow = Passamos a página para baixo.
+PgUP = Passamos a página para cima.
+Seta Cima/Baixo = Passamos linha por linha.
+
+
+
+ 
 
 
 
